@@ -109,7 +109,7 @@ h1 {
 }
 .you-selected {
   border-radius: 25px;
-  width: 55%;
+  width: 65%;
   color: var(--orange);
   background-color: var(--medium-grey);
   display: flex;
@@ -129,4 +129,35 @@ h1 {
 .submit-btn:focus {
   background-color: var(--white);
   color: var(--orange);
+}
+
+.attribution {
+  color: antiquewhite;
+}
+a:link {
+  color: var(--light-grey);
+}
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  body {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  .rate-start-div {
+    width: 95%;
+  }
+  .you-selected {
+    line-height: 15px;
+  }
+
+  .thankyou-div {
+    width: 95%;
+  }
 }
